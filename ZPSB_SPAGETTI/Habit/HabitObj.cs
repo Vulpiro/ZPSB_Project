@@ -8,14 +8,41 @@ namespace ZPSB_SPAGETTI.Habit
 {
     class HabitObj
     {
-        public string name { get; set; }
-        public string description { get; set; }
-        public DateTime habitTime { get; set; }
-        public int damage { get; set; }
-
-        public HabitObj()
+        #region variables
+        //Fields
+        private string name;
+        private string description;
+        private DateTime habitTime;
+        private int damage;
+        //Properties
+        public string Name 
         {
+            get { return name; }
+            set { name = value; }
+        }
+        public string Description
+        {
+            get { return description; }
+            set { description = value; }
+        }
+        public DateTime HabitTime 
+        {
+            get { return habitTime; }
+            set { habitTime = value; }
+        }
+        public int Damage 
+        { 
+            get { return damage; } 
+            set { damage = value; } 
+        }
+        #endregion
 
+        public HabitObj(string name, string description, DateTime time, int damage)
+        {
+            Name = name;
+            Description = description;
+            HabitTime = time;
+            Damage = damage;
         }
     }
 }
