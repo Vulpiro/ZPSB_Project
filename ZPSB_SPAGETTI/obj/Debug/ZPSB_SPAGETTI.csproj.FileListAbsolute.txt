@@ -13,3 +13,8 @@ D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\ZPSB_SPAGETTI.csproj.Ge
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\ZPSB_SPAGETTI.csproj.CoreCompileInputs.cache
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\ZPSB_SPAGETTI.exe
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\ZPSB_SPAGETTI.pdb
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitList.g.cs
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitTile.g.cs
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitList.baml
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitTile.baml
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\GeneratedInternalTypeHelper.g.cs
