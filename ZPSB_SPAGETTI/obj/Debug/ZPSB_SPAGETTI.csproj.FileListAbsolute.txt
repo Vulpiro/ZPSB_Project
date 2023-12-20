@@ -18,3 +18,5 @@ D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\Habit
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitList.baml
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitTile.baml
 D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitCreatorWindow.g.cs
+D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\View\UserControls\HabitCreatorWindow.baml
