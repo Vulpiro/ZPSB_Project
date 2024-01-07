@@ -6,7 +6,18 @@
              xmlns:local="clr-namespace:ZPSB_SPAGETTI.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid Background="BlanchedAlmond">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Margin="20"/>
+        <Grid>
+            <Button/>
+            <Button/>
+        </Grid>
+        
+
     </Grid>
 </UserControl>

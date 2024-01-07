@@ -5,8 +5,18 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ZPSB_SPAGETTI.View.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+             d:DesignHeight="200" d:DesignWidth="800">
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Test" FontSize="50" Margin="20"/>
+        <TextBlock Text="8:00" FontSize="30" Margin="20" Grid.Row="1"/>
+        <Button Grid.Row="1" Grid.Column="1" Margin="20"/>
     </Grid>
 </UserControl>

@@ -21,7 +21,11 @@
             <Button Name="btnCreate"  Width="30" Height="30" HorizontalAlignment="Left" Click="btnCreate_Click"/>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="1" Background="Lavender">
-
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <local:HabitTile/>
         </Grid>
     </Grid>
 </UserControl>
