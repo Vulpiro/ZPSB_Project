@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\obj\Debug\
+E:\ZPSB\ZPSB_Project\ZPSB_SPAGETTI\obj\Debug\
 ZPSB_SPAGETTI
 none
 false
 DEBUG;TRACE
-D:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\App.xaml
-4-1236160739
+E:\ZPSB\ZPSB_Project\ZPSB_SPAGETTI\App.xaml
+4-163593505
 
-111411692380
-13-1505183044
+12-576312186
+13-1310406943
 MainWindow.xaml;View\UserControls\HabitCreatorWindow.xaml;View\UserControls\HabitList.xaml;View\UserControls\HabitTile.xaml;
 
-False
+True
 
