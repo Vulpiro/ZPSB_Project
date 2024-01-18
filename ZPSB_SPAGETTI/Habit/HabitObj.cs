@@ -44,5 +44,13 @@ namespace ZPSB_SPAGETTI.Habit
             HabitTime = time;
             Damage = damage;
         }
+
+        public HabitObj(string name, string description, DateTime time)
+        {
+            Name = name;
+            Description = description;
+            HabitTime = time;
+            Damage = 0;
+        }
     }
 }
