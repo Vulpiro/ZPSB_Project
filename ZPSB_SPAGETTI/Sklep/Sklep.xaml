@@ -1,0 +1,33 @@
+﻿<Window x:Class="ZPSB_SPAGETTI.Sklep.Sklep"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZPSB_SPAGETTI.Sklep"
+        mc:Ignorable="d"
+        Title="Sklep" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Postać -->
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+
+        <!-- Sklep -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <local:Przedmiot Grid.Row="0" Nazwa="Gogle" Cena="500GP"/>
+            <local:Przedmiot Grid.Row="1" Nazwa="Koszulka" Cena="750GP"/>
+            <local:Przedmiot Grid.Row="0" Grid.Column="1" Nazwa="Cylinder" Cena="1.000GP"/>
+            <local:Przedmiot Grid.Row="1" Grid.Column="1" Nazwa="Korona" Cena="1.000.000GP"/>
+        </Grid>
+    </Grid>
+</Window>
