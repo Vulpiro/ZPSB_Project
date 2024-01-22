@@ -59,6 +59,12 @@
     <Compile Include="Game\Items\Item.cs" />
     <Compile Include="Habit\HabitHandler.cs" />
     <Compile Include="Habit\HabitObj.cs" />
+    <Compile Include="Sklep\Przedmiot.xaml.cs">
+      <DependentUpon>Przedmiot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sklep\Sklep.xaml.cs">
+      <DependentUpon>Sklep.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Test.cs" />
     <Compile Include="View\Pages\GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
@@ -152,6 +158,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\UserControls\Habit\HabitScrollList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sklep\Przedmiot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sklep\Sklep.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
