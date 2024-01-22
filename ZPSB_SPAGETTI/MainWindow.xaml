@@ -8,11 +8,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1080">
     <DockPanel>
-        <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
-            <Button Content="Habit" Click="HabitBtnClick"/>
-            <Button Content="Game" Click="GameBtnClick"/>
-            <Button Content="Hero" Click="HeroBtnClick"/>
-        </StackPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Habit" Click="HabitBtnClick"/>
+            <MenuItem Header="Game" Click="GameBtnClick"/>
+            <MenuItem Header="Hero" Click="HeroBtnClick"/>
+            <MenuItem Header="Store" Click="StoreBtnClick"/>
+        </Menu>
+        
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" DockPanel.Dock="Right"/>
+
+        
     </DockPanel>
 </Window>

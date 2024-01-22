@@ -4,11 +4,33 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ZPSB_SPAGETTI.View.Pages"
+      xmlns:Sklep="clr-namespace:ZPSB_SPAGETTI.Sklep"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="StorePage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <!-- Postać -->
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+
+        <!-- Sklep -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Sklep:Przedmiot Grid.Row="0" Nazwa="Gogle" Cena="500GP"/>
+            <Sklep:Przedmiot Grid.Row="1" Nazwa="Koszulka" Cena="750GP"/>
+            <Sklep:Przedmiot Grid.Row="0" Grid.Column="1" Nazwa="Cylinder" Cena="1.000GP"/>
+            <Sklep:Przedmiot Grid.Row="1" Grid.Column="1" Nazwa="Korona" Cena="1.000.000GP"/>
+        </Grid>
     </Grid>
 </Page>
