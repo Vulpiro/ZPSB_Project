@@ -209,5 +209,11 @@
     <Folder Include="View\UserControls\Main\" />
     <Folder Include="View\UserControls\Store\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sklep\Images\cylinder.png" />
+    <Resource Include="Sklep\Images\gogle.png" />
+    <Resource Include="Sklep\Images\korona.png" />
+    <Resource Include="Sklep\Images\koszulka.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

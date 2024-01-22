@@ -16,7 +16,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Obrazek -->
-                <Rectangle Grid.Column="0" Fill="CornflowerBlue" Margin="10"/>
+                <Image Source="{Binding Sciezka}" Margin="10"/>
 
                 <!-- Tekst -->
                 <Grid Grid.Column="1">
@@ -25,8 +25,8 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
 
-                    <TextBlock Grid.Row="0" x:Name="tbNazwa" Text="{Binding Nazwa}" FontSize="16" VerticalAlignment="Bottom" Margin="5"/>
-                    <TextBlock Grid.Row="1" x:Name="tbCena" Text="{Binding Cena}" FontSize="16" VerticalAlignment="Top" Margin="5"/>
+                    <TextBlock Grid.Row="0" x:Name="tbNazwa" Text="{Binding Nazwa}" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,10,5" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="1" x:Name="tbCena" Text="{Binding Cena}" FontSize="16" VerticalAlignment="Top" Margin="10,5,10,0"/>
                 </Grid>
 
                 <!-- Przycisk -->

@@ -54,6 +54,19 @@ namespace ZPSB_SPAGETTI.Sklep
             }
         }
 
+        private string sciezka;
+
+        public string Sciezka
+        {
+            get { return sciezka; }
+            set
+            {
+                sciezka = value;
+                OnPropertyChanged();
+            }
+        }
+
+
 
         private void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
