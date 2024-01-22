@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ZPSB_SPAGETTI.View.Pages; // Dodaje lokacje plików
 
 namespace ZPSB_SPAGETTI
 {
@@ -23,6 +24,20 @@ namespace ZPSB_SPAGETTI
         public MainWindow()
         {
             InitializeComponent();
+        }
+        //Funkcja przycisków gdy je klikniesz
+        private void HabitBtnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new HabitPage(); //Ustawiam by frame otrzymywał konent w postaci wybranej strony przy kliknieciu
+        }
+        private void GameBtnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new GamePage();
+        }
+
+        private void HeroBtnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new HeroPage();
         }
     }
 }

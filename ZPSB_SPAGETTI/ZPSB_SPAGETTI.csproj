@@ -55,7 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Habit\HabitCreator.cs" />
+    <Compile Include="Game\Enemies\Enemy.cs" />
+    <Compile Include="Game\Items\Item.cs" />
+    <Compile Include="Habit\HabitHandler.cs" />
     <Compile Include="Habit\HabitObj.cs" />
     <Compile Include="Sklep\Przedmiot.xaml.cs">
       <DependentUpon>Przedmiot.xaml</DependentUpon>
@@ -64,14 +66,44 @@
       <DependentUpon>Sklep.xaml</DependentUpon>
     </Compile>
     <Compile Include="Test.cs" />
-    <Compile Include="View\UserControls\HabitCreatorWindow.xaml.cs">
-      <DependentUpon>HabitCreatorWindow.xaml</DependentUpon>
+    <Compile Include="View\Pages\GamePage.xaml.cs">
+      <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UserControls\HabitList.xaml.cs">
+    <Compile Include="View\Pages\HabitPage.xaml.cs">
+      <DependentUpon>HabitPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\HeroPage.xaml.cs">
+      <DependentUpon>HeroPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\StorePage.xaml.cs">
+      <DependentUpon>StorePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Game\GameEnemyTile.xaml.cs">
+      <DependentUpon>GameEnemyTile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Game\GameHabitList.xaml.cs">
+      <DependentUpon>GameHabitList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Game\GameHabitTile.xaml.cs">
+      <DependentUpon>GameHabitTile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Game\GameHeroTile.xaml.cs">
+      <DependentUpon>GameHeroTile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Game\GameSpace.xaml.cs">
+      <DependentUpon>GameSpace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Habit\HabitList.xaml.cs">
       <DependentUpon>HabitList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UserControls\HabitTile.xaml.cs">
+    <Compile Include="View\UserControls\Habit\HabitScrollList.xaml.cs">
+      <DependentUpon>HabitScrollList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\Habit\HabitTile.xaml.cs">
       <DependentUpon>HabitTile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\HabitCreatorWindow.xaml.cs">
+      <DependentUpon>HabitCreatorWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +117,50 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\Pages\GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\HabitPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\HeroPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\StorePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Game\GameEnemyTile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Game\GameHabitList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Game\GameHabitTile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Game\GameHeroTile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Game\GameSpace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Habit\HabitList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\Habit\HabitScrollList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Sklep\Przedmiot.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,11 +173,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\UserControls\HabitList.xaml">
+    <Page Include="View\UserControls\Habit\HabitTile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\UserControls\HabitTile.xaml">
+    <Page Include="View\Windows\HabitCreatorWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,8 +209,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Game\Enemies\" />
-    <Folder Include="Game\Items\" />
+    <Folder Include="View\UserControls\Hero\" />
+    <Folder Include="View\UserControls\Main\" />
+    <Folder Include="View\UserControls\Store\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

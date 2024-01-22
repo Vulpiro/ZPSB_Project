@@ -4,10 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZPSB_SPAGETTI"
-        xmlns:userControls="clr-namespace:ZPSB_SPAGETTI.View.UserControls"
+        xmlns:pages="clr-namespace:ZPSB_SPAGETTI.View.Pages"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <userControls:HabitList/>
-    </Grid>
+        Title="MainWindow" Height="720" Width="1080">
+    <DockPanel>
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+            <Button Content="Habit" Click="HabitBtnClick"/>
+            <Button Content="Game" Click="GameBtnClick"/>
+            <Button Content="Hero" Click="HeroBtnClick"/>
+        </StackPanel>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" DockPanel.Dock="Right"/>
+    </DockPanel>
 </Window>
