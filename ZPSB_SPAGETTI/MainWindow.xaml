@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ZPSB_SPAGETTI"
         xmlns:pages="clr-namespace:ZPSB_SPAGETTI.View.Pages"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1080">
+        Title="ZPSB Projekt" Height="720" Width="1080">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Habit" Click="HabitBtnClick"/>
