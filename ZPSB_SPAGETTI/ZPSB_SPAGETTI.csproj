@@ -169,10 +169,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\UserControls\HabitCreatorWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\UserControls\Habit\HabitTile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
