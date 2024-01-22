@@ -57,6 +57,12 @@
     </ApplicationDefinition>
     <Compile Include="Habit\HabitCreator.cs" />
     <Compile Include="Habit\HabitObj.cs" />
+    <Compile Include="Sklep\Przedmiot.xaml.cs">
+      <DependentUpon>Przedmiot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sklep\Sklep.xaml.cs">
+      <DependentUpon>Sklep.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Test.cs" />
     <Compile Include="View\UserControls\HabitCreatorWindow.xaml.cs">
       <DependentUpon>HabitCreatorWindow.xaml</DependentUpon>
@@ -79,6 +85,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Sklep\Przedmiot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sklep\Sklep.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\UserControls\HabitCreatorWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
