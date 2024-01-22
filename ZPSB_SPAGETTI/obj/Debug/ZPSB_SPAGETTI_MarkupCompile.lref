@@ -1,7 +1,17 @@
 ﻿
 
 FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\MainWindow.xaml;;
-FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\HabitList.xaml;;
-FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\HabitTile.xaml;;
-FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\HabitCreatorWindow.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\Pages\GamePage.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\Pages\HabitPage.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\Pages\HeroPage.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Game\GameEnemyTile.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Game\GameHabitList.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Game\GameHabitTile.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Game\GameHeroTile.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Game\GameSpace.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Habit\HabitList.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Habit\HabitScrollList.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\UserControls\Habit\HabitTile.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\Windows\HabitCreatorWindow.xaml;;
+FD:\Projekty\CSHARP\ZPSB_SPAGETTI\ZPSB_SPAGETTI\View\Pages\StorePage.xaml;;
 
