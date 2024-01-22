@@ -26,7 +26,13 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Row="0" x:Name="tbNazwa" Text="{Binding Nazwa}" FontSize="16" VerticalAlignment="Bottom" Margin="10,0,10,5" FontWeight="Bold"/>
-                <TextBlock Grid.Row="1" x:Name="tbCena" Text="{Binding Cena}" FontSize="16" VerticalAlignment="Top" Margin="10,5,10,0"/>
+                <TextBlock Grid.Row="1" x:Name="tbCena" FontSize="16" VerticalAlignment="Top" Margin="10,5,10,0">
+                    <TextBlock.Text>
+                        <MultiBinding StringFormat=" {0} GP">
+                            <Binding Path="Cena"/>
+                        </MultiBinding>
+                    </TextBlock.Text>
+                </TextBlock>
             </Grid>
 
             <!-- Przycisk -->

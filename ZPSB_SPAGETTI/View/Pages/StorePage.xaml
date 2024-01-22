@@ -29,10 +29,10 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Sklep:Przedmiot Grid.Row="0" Nazwa="Gogle" Cena="500 GP" Sciezka="images/gogle.png" Margin="10,10,5,5"/>
-            <Sklep:Przedmiot Grid.Row="1" Nazwa="Koszulka" Cena="750 GP" Sciezka="images/koszulka.png" Margin="10,5,5,10"/>
-            <Sklep:Przedmiot Grid.Row="0" Grid.Column="1" Nazwa="Cylinder" Cena="1.000 GP" Sciezka="images/cylinder.png" Margin="5,10,10,5"/>
-            <Sklep:Przedmiot Grid.Row="1" Grid.Column="1" Nazwa="Korona" Cena="1.000.000 GP" Sciezka="images/korona.png" Margin="5,5,10,10"/>
+            <Sklep:Przedmiot Grid.Row="0" Nazwa="Gogle" Cena="500" Sciezka="images/gogle.png" Margin="10,10,5,5"/>
+            <Sklep:Przedmiot Grid.Row="1" Nazwa="Koszulka" Cena="750" Sciezka="images/koszulka.png" Margin="10,5,5,10"/>
+            <Sklep:Przedmiot Grid.Row="0" Grid.Column="1" Nazwa="Cylinder" Cena="1.000" Sciezka="images/cylinder.png" Margin="5,10,10,5"/>
+            <Sklep:Przedmiot Grid.Row="1" Grid.Column="1" Nazwa="Korona" Cena="1.000.000" Sciezka="images/korona.png" Margin="5,5,10,10"/>
         </Grid>
     </Grid>
 </Page>
