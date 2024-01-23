@@ -24,6 +24,7 @@ namespace ZPSB_SPAGETTI
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new HabitPage();
         }
         //Funkcja przycisków gdy je klikniesz
         private void HabitBtnClick(object sender, RoutedEventArgs e)
@@ -38,6 +39,11 @@ namespace ZPSB_SPAGETTI
         private void HeroBtnClick(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = new HeroPage();
+        }
+
+        private void StoreBtnClick(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new StorePage();
         }
     }
 }
