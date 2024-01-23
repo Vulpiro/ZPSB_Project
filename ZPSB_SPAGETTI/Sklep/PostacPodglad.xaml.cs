@@ -18,41 +18,17 @@ using System.Windows.Shapes;
 namespace ZPSB_SPAGETTI.Sklep
 {
     /// <summary>
-    /// Logika interakcji dla klasy Przedmiot.xaml
+    /// Interaction logic for PostacPodglad.xaml
     /// </summary>
-    public partial class Przedmiot : UserControl, INotifyPropertyChanged
+    public partial class PostacPodglad : UserControl, INotifyPropertyChanged
     {
-        public Przedmiot()
+        public PostacPodglad()
         {
             DataContext = this;
             InitializeComponent();
         }
 
-        private string nazwa;
-
         public event PropertyChangedEventHandler PropertyChanged;
-
-        public string Nazwa
-        {
-            get { return nazwa; }
-            set
-            {
-                nazwa = value;
-                OnPropertyChanged();
-            }
-        }
-
-        private string cena;
-
-        public string Cena
-        {
-            get { return cena; }
-            set
-            {
-                cena = value;
-                OnPropertyChanged();
-            }
-        }
 
         private string sciezka;
 
@@ -66,12 +42,45 @@ namespace ZPSB_SPAGETTI.Sklep
             }
         }
 
+        private string imie;
 
+        public string Imie
+        {
+            get { return imie; }
+            set
+            {
+                imie = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string xp;
+
+        public string XP
+        {
+            get { return xp; }
+            set
+            {
+                xp = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string gp;
+
+        public string GP
+        {
+            get { return gp; }
+            set
+            {
+                gp = value;
+                OnPropertyChanged();
+            }
+        }
 
         private void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
     }
 }

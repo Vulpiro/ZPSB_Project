@@ -4,11 +4,35 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ZPSB_SPAGETTI.View.Pages"
+      xmlns:Sklep="clr-namespace:ZPSB_SPAGETTI.Sklep"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="StorePage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+
+        <!-- Postać -->
+        <Sklep:PostacPodglad Grid.Row="0" VerticalAlignment="Stretch" Margin="10" Sciezka="images/postac.png" Imie="Steve" XP="173" GP="250"/>
+
+        <!-- Sklep -->
+        <Grid Grid.Row="1" Background="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Sklep:Przedmiot Grid.Row="0" Nazwa="Gogle" Cena="500" Sciezka="images/gogle.png" Margin="10,10,5,5"/>
+            <Sklep:Przedmiot Grid.Row="1" Nazwa="Koszulka" Cena="750" Sciezka="images/koszulka.png" Margin="10,5,5,10"/>
+            <Sklep:Przedmiot Grid.Row="0" Grid.Column="1" Nazwa="Cylinder" Cena="1.000" Sciezka="images/cylinder.png" Margin="5,10,10,5"/>
+            <Sklep:Przedmiot Grid.Row="1" Grid.Column="1" Nazwa="Korona" Cena="1.000.000" Sciezka="images/korona.png" Margin="5,5,10,10"/>
+        </Grid>
     </Grid>
 </Page>
