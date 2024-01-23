@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="eq.xaml.cs">
+      <DependentUpon>eq.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Habit\HabitCreator.cs" />
     <Compile Include="Habit\HabitObj.cs" />
     <Compile Include="Test.cs" />
@@ -67,6 +70,10 @@
     <Compile Include="View\UserControls\HabitTile.xaml.cs">
       <DependentUpon>HabitTile.xaml</DependentUpon>
     </Compile>
+    <Page Include="eq.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
