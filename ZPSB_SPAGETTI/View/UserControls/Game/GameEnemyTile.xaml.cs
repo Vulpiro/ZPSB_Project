@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZPSB_SPAGETTI.View.UserControls
+namespace ZPSB_SPAGETTI.View.UserControls.Game
 {
     /// <summary>
-    /// Logika interakcji dla klasy HabitTile.xaml
+    /// Interaction logic for GameEnemyTile.xaml
     /// </summary>
-    public partial class HabitTile : UserControl
+    public partial class GameEnemyTile : UserControl
     {
-        public HabitTile()
+        public GameEnemyTile()
         {
             InitializeComponent();
         }

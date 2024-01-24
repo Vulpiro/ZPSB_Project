@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZPSB_SPAGETTI.View.UserControls
+namespace ZPSB_SPAGETTI.View.UserControls.Game
 {
     /// <summary>
-    /// Interaction logic for HabitCreatorWindow.xaml
+    /// Interaction logic for GameSpace.xaml
     /// </summary>
-    public partial class HabitCreatorWindow : UserControl
+    public partial class GameSpace : UserControl
     {
-        public HabitCreatorWindow()
+        public GameSpace()
         {
             InitializeComponent();
         }

@@ -12,33 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using ZPSB_SPAGETTI.Habit;
 
-namespace ZPSB_SPAGETTI.View.UserControls
+namespace ZPSB_SPAGETTI.View.UserControls.Game
 {
     /// <summary>
-    /// Logika interakcji dla klasy HabitList.xaml
+    /// Interaction logic for GameHabitTile.xaml
     /// </summary>
-    public partial class HabitList : UserControl
+    public partial class GameHabitTile : UserControl
     {
-        public HabitList()
+        public GameHabitTile()
         {
             InitializeComponent();
-        }
-
-        private void btnEdit_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnDelete_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnCreate_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
