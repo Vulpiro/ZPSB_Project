@@ -25,6 +25,11 @@ namespace ZPSB_SPAGETTI.Shop
             return _instance;
         }
 
-        public List<ShopItem> habitItemList = new List<ShopItem>();
+        public List<ShopItem> shopItemList = new List<ShopItem>();
+
+        public void BuyItem()
+        {
+
+        }
     }
 }

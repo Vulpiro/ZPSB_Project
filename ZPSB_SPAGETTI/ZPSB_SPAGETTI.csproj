@@ -59,7 +59,9 @@
     <Compile Include="Game\Items\Item.cs" />
     <Compile Include="Habit\HabitHandler.cs" />
     <Compile Include="Habit\HabitObj.cs" />
+    <Compile Include="Inventory\InventoryHandler.cs" />
     <Compile Include="Shop\ShopHandler.cs" />
+    <Compile Include="Shop\ShopItem.cs" />
     <Compile Include="Sklep\PostacPodglad.xaml.cs">
       <DependentUpon>PostacPodglad.xaml</DependentUpon>
     </Compile>
