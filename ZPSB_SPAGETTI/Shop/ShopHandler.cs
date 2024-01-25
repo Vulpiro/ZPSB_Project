@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace ZPSB_SPAGETTI.Shop
 {
-    class ShopHandler
+    //Singleton
+    sealed class ShopHandler
     {
+        private ShopHandler()
+        {
+
+        }
+
+        private static ShopHandler _instance;
+
+        public static ShopHandler GetInstance()
+        {
+            if (_instance == null)
+            {
+                _instance = new ShopHandler();
+            }
+            return _instance;
+        }
+
+        public List<ShopItem> habitItemList = new List<ShopItem>();
     }
 }
